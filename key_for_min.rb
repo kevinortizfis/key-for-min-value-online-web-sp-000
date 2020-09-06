@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   vals = []
 
   def hash_sorter(name_hash)
-    
+
   end
 
   vals2 = []
