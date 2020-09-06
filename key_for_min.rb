@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
   vals.each do |pair|
     vals2 << pair[0]
   end
-  vals2.first
+  vals.first
 end
 
 #to do:
