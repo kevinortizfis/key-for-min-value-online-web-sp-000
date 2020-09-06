@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   #vals = name_hash.sort_by{|k,v| v}
   vals = []
 
-  def hash_sorter(Hash)
+  def hash_sorter(name_hash)
     
   end
 
