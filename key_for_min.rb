@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     name_hash.flatten
     name_hash.each do |a,b|
       if a[1] > b[1]
+        vals << a[0]
   end
 
   vals2 = []
