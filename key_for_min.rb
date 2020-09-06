@@ -5,20 +5,13 @@ def key_for_min_value(name_hash)
   #vals = name_hash.sort_by{|k,v| v}
   vals = []
 
-  def hash_sorter(name_hash)
-    name_hash.flatten
-    name_hash.each do |a,b|
-      if a > b
-        vals << a
-      end
-    end
-  end
+
 
   vals2 = []
   vals.each do |pair|
     vals2 << pair[0]
   end
-  vals.first
+  vals2.first
 end
 
 #to do:
