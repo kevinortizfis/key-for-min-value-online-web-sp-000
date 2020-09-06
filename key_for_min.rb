@@ -7,7 +7,6 @@ def key_for_min_value(name_hash)
     a <=> b
     if a < b
       -1
-      i += 1
     end
   end
   vals2 = []
