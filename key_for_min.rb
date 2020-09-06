@@ -3,7 +3,6 @@
 
 def key_for_min_value(name_hash)
   vals =   values_array = name_hash.collect{|key, value| value}.sort
-
   vals2 = []
   vals.each do |pair|
     vals2 << pair[0]
