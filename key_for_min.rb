@@ -4,6 +4,11 @@
 def key_for_min_value(name_hash)
   #vals = name_hash.sort_by{|k,v| v}
   vals = []
+
+  def hash_sorter(Hash)
+    
+  end
+
   vals2 = []
   vals.each do |pair|
     vals2 << pair[0]
