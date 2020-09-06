@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
       if a[1] > b[1]
         vals << a[0]
       end
+    end
   end
 
   vals2 = []
