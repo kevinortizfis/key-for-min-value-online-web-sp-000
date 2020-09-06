@@ -7,5 +7,5 @@ def key_for_min_value(name_hash)
   vals.each do |a,b|
     a <=> b
   end
-  vals2.first
+  vals.first
 end
