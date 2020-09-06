@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   vals =[]
   name_hash.each {|k,v| vals << v}
   vals2 = []
-  vals.each do |a,b|
+  vals.sort do |a,b|
     a <=> b
   end
   vals.first
