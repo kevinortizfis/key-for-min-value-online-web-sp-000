@@ -11,3 +11,11 @@ def key_for_min_value(name_hash)
   end
   vals2.first
 end
+
+#to do:
+#sort the hash by value:
+  #identify value in the hash
+  #compare values to one another
+  #set value-key pairs in order from smallest to largest
+#extract keys from new set of arrays
+#extract first element from new array
