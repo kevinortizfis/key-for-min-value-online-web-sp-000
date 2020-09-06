@@ -7,6 +7,7 @@ def key_for_min_value(name_hash)
 
   def hash_sorter(name_hash)
     name_hash.flatten
+    
   end
 
   vals2 = []
