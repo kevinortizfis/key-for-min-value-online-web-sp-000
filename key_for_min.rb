@@ -13,4 +13,5 @@ def key_for_min_value(name_hash)
     vals2 << pair[0]
   end
   vals2.first
+  binding.pry
 end
