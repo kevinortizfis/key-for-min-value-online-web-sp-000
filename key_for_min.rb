@@ -2,8 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  #vals = name_hash.sort_by{|k,v| v}
-  vals = (sort_order & sample.keys).map { |k| [k, sample[k]] }.to_h
+  vals = name_hash.sort_by!{|k,v| v}
   vals2 = []
   vals.each do |pair|
     vals2 << pair[0]
