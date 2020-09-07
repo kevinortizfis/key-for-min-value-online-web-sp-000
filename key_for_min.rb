@@ -10,6 +10,20 @@ def key_for_min_value(name_hash)
   vals2.first
 end
 
+def key_for_min_value(hash)
+  min_key = nil
+  hash.each do |key, value|
+    if min_key.nil?
+      min_key = key
+    elsif value < hash[min_key]
+      min_key = key
+    else
+      next
+    end
+  end
+  min_key
+end
+
 #to do:
 #sort the hash by value -- must not use sort/sort_by, etc.
   #identify value in the hash
